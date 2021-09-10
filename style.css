@@ -25,3 +25,15 @@ main {
     justify-content: center;
     display:flex;
 }
+
+input[type=date]{
+    margin-left: 15px;
+}
+
+input[type=radio]#male-gender{
+    margin-left: 75px;
+}
+
+input[type=radio]#female-gender{
+    margin-left: 58px;
+}
