@@ -5,6 +5,8 @@
 - NAME: Ifeanyichukwu Otiwa
 - [Github](https://github.com/ifeanyiotiwa-hub)
 - [FreeCodeCamp](https://www.freecodecamp.org/istar007)
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## PROJECT Description
 For this week's I will be  building a web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their **Akan Name**. 
 
