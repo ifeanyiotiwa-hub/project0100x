@@ -1,5 +1,5 @@
 # PROJECT0100X
-[Link To Project](http://htmlpreview.github.io/?https://github.com/ifeanyiotiwa-hub/project0100x/index.html)
+[Link To Project](https://htmlpreview.github.io/?https://github.com/ifeanyiotiwa-hub/project0100x/blob/master/index.html)
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## AUTHOR INFORMATION
 - NAME: Ifeanyichukwu Otiwa
