@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akan Name</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <header id="title">
+        <h1 id="title-header">What is your Akan Name</h1>
+    </header>
+    <p class="title-description">Akan names are derived from Ghanian culture. Frequently in Ghana, <br/> children are given their first name as a 'day name' which corresponds <br/>to the day in the week they were born.</p>
+
+    <div class="form">
+        <h3 class="details">Enter Your date of birth</h3>
+        <form action="" class="info">
+            <div class="item-containers">
+                <div class="form-items">
+                    <label for="gender" class="male">
+                        Male <input 
+                            type="radio" 
+                            name="gender" 
+                            id="male" 
+                            value="male-gender" required> 
+                        Female <input 
+                            type="radio" 
+                            name="gender" 
+                            id="female-gender" 
+                            value="female">
+                            
+                    </label> 
+                </div>
+    
+                <div class="form-items">
+                    <label for="dob" class="dob">
+                        Date Of Birth 
+                        <input 
+                            type="date" 
+                            name="dob" 
+                            id="dob" min="1899-01-01" max="2021-12-31" required
+                        >
+                    </label>
+                </div>
+                <button type="submit">Submit</button>
+
+                <button type="button" onclick="getName()">
+                    Get Akan Name
+                </button>
+            </div>
+        </form>
+    </div>
+    
+    <script src="./app.js"></script>
+</body>
+</html>
