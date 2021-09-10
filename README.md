@@ -1,100 +1,88 @@
-# GOAL
+# PROJECT0100X
+[Link To Project](http://htmlpreview.github.io/?https://github.com/ifeanyiotiwa-hub/project0100x/index.html)
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## AUTHOR INFORMATION
+- NAME: Ifeanyichukwu Otiwa
+- [Github](https://github.com/ifeanyiotiwa-hub)
+- [FreeCodeCamp](https://www.freecodecamp.org/istar007)
+## PROJECT Description
+For this week's I will be  building a web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their **Akan Name**. 
 
-The goal of this week's Independent Project is to help us practice and better understand the concepts that we have covered throughout this week. These include working with data types, Array, writing functions, control flow, and operators.
+**Akan names** are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a _'day name'_ which corresponds to the day in the week they were born. 
 
-## Overall Description
-For this week's Independent Project, you will be required to build a web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name. 
+### Here are Ghanian day names.
 
-Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. Here are Ghanian day names.
+#### Male
+```
+{ 
+    Sunday: Kwasi
 
-Male
-Sunday: Kwasi
+    Monday: Kwadwo
 
-Monday: Kwadwo
+    Tuesday: Kwabena
 
-Tuesday: Kwabena
+    Wednesday: Kwaku
 
-Wednesday: Kwaku
+    Thursday:  Yaw
 
-Thursday:  Yaw
+    Friday: Kofi
 
-Friday: Kofi
+    Saturday: Kwame
 
-Saturday: Kwame
+    Female
+    Sunday: Akosua
 
-Female
-Sunday: Akosua
+    Monday: Adwoa
 
-Monday: Adwoa
+    Tuesday: Abenaa
 
-Tuesday: Abenaa
+    Wednesday: Akua
 
-Wednesday: Akua
+    Thursday:  Yaa
 
-Thursday:  Yaa
+    Friday: Afua
 
-Friday: Afua
-
-Saturday: Ama
+    Saturday: Ama
+}
+```
 
 Most people do know when their birthdays are, but some might not know what day of the week they were born. Luckily for us, there are ways to calculate the day of the week from a specific date. The following is one of the many methods that exist for that;
 
-Day of the week 
+### Day of the week  (d)
+
 ``` 
 
-(d) = ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) mod 7 ```
+(d) = ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) mod 7
+
+```
 
  where;
 
- CC - is the century digits. For example 1989 has CC = 19
+ **CC** - *is the century digits. For example 1989 has CC = 19*
 
- YY - is the Year digits (1989 has YY = 89)
+ **YY** - *is the Year digits (1989 has YY = 89)*
 
- MM -  is the Month
+ **MM** -  *is the Month*
 
- DD - is the Day of the month 
+ **DD** - *is the Day of the month* 
 
- mod - is the modulus function ( % )
+ **mod** - *is the modulus function ( % )*
 
-USER STORY
- As a user, I would like to;
+## USER STORY
+ 
+ -> **As a user, I would like to**;
 
-See a  small description of what the application does on the landing page.
-Enter my birthday through a form 
-Choose what gender I am.
-Click the submit button to see what my Akan name would be
-Requirements 
+- See a  small description of what the application does on the landing page.
+- Enter my birthday through a form 
+- Choose what gender I am.
+- Click the submit button to see what my Akan name would be
+
+## Requirements 
+
 The application should check whether the date and month entered is valid. if either of them is invalid,  the user should be alerted and asked to enter a valid one. For example:
         An invalid day should be (d<=0) or (d>31)
 
         An invalid month should be (m<= 0) or (m > 12)  
 
-The application should output to the user their Akan name depending on their gender. For example, if a user is male and the result of the calculation is 0, then the application should match that with Kwasi since Kwasi corresponds to Sunday which has an index 0. Hence the output the user will see should be something like “Your Akan name is Kwasi”
-OBJECTIVES
-
-The project will be evaluated based on the following objectives:
-
-The project uses one or more javascript functions.
-Appropriate control flows and logical operators are used in the project.
-The project makes use of one or more arrays in javascript.
-The project uses a  HTML input to collect user data.
-The project uses a custom CSS stylesheet that incorporates cascading, box model and floats.
-The project works as expected, achieving the functionality required.
-The project demonstrates an understanding of the week's concepts. If requested, you should be able to explain your code to your instructor.
-TECHNICAL REQUIREMENTS
-The project contains a well-documented README file. This should have: 
-Project name.
-Project description.
-Author(s) information.
-Setup instructions - includes any scripts that need to be run if necessary.
-BDD.
-Technologies used.
-Contact information.
-License and Copyright information.
-The project code is consistently indented and follows the language syntax.
-The project is submitted in time. It should be submitted before 6:00 pm Friday unless otherwise stated.
-The project code is pushed to Github and the project is deployed to gh-pages.
-The project name, description, and URL to live site are provided on the Github repository.
-Commits are made regularly with relevant and clear commit messages associated with them.
-The project should be polished in a portfolio-quality state
+The application should output to the user their Akan name depending on their gender. 
+-> For example, if a user is male and the result of the calculation is 0, then the application should match that with Kwasi since Kwasi corresponds to Sunday which has an index 0. Hence the output the user will see should be something like **“Your Akan name is Kwasi”**
