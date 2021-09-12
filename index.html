@@ -9,49 +9,55 @@
 </head>
 <body>
     
-    <header id="title">
-        <h1 id="title-header">What is your Akan Name</h1>
-    </header>
-    <p class="title-description">Akan names are derived from Ghanian culture. Frequently in Ghana, <br/> children are given their first name as a 'day name' which corresponds <br/>to the day in the week they were born.</p>
+    <main id="contents">
 
-    <div class="form">
-        <h3 class="details">Enter Your date of birth</h3>
-        <form action="" class="info">
-            <div class="item-containers">
-                <div class="form-items">
-                    <label for="gender" class="male">
-                        Male <input 
-                            type="radio" 
-                            name="gender" 
-                            id="male-gender" 
-                            value="male"> <br/>
-                        Female <input 
-                            type="radio" 
-                            name="gender" 
-                            id="female-gender" 
-                            value="female">
-                            
-                    </label> 
-                </div>
+        <div id="head">
+            <h1 class="">What is your Akan Name</h1>
+            <p class="">Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.</p>
+        </div>
     
-                <div class="form-items">
-                    <label for="dob" class="dob">
-                        Date Of Birth 
-                        <input 
-                            type="date" 
-                            name="dob" 
-                            id="dob" min="1899-01-01" max="2021-12-31" required
-                        >
-                    </label>
+        <div class="form-title"Choose Your date of birth</div>
+        <div class="form">
+            <form action="" class="info">
+                <div class="item-containers">
+                    <div class="form-items">
+                        <label for="gender" class="male">
+                            Male
+                            <input 
+                                type="radio" 
+                                name="gender" 
+                                id="male-gender" 
+                                value="male">                         
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            Female  
+                            <input 
+                                type="radio" 
+                                name="gender" 
+                                id="female-gender" 
+                                value="female">    
+                        </label> 
+                    </div>
+        
+                    <div class="form-items">
+                        <label for="dob" class="dob">
+                            Date Of Birth 
+                            <input 
+                                type="date" 
+                                name="dob" 
+                                id="dob" min="1899-01-01" max="2021-12-31" required
+                            >
+                        </label>
+                    </div>    
+                    <button id="request" type="button" onclick="getName()">
+                        Get Akan Name
+                    </button>
                 </div>
-                <button type="submit">Submit</button>
-
-                <button type="button" onclick="getName()">
-                    Get Akan Name
-                </button>
-            </div>
-        </form>
-    </div>
+            </form>
+        </div>
+    </main>
     
     <script src="./app.js"></script>
 </body>
